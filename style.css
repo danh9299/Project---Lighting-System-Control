@@ -1,0 +1,41 @@
+/*CSS FOR ALL*/
+body {
+  background-color: cyan;
+
+  width: 100%;
+  height:100%;
+}
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(255, 109, 109);
+    font-size: 500%;
+    border: 1px solid;
+}
+/*css for lamp*/
+.lamp-pos {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#lamp {
+  width: 40%;
+}
+
+/*css for switch*/
+.switch-pos {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.switch {
+  display: flex;
+  column-gap: 20%;
+  justify-content: space-between;
+}
+
+.btn {
+  font-size: xx-large;
+}
